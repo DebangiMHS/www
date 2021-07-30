@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+.profile {
+    width: 175px;
+    margin-bottom: 250px;
+    border-radius: 50%;
+}
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: darkblue;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.83;
+    display: table;
+    width: 100%
+}
+.parallex-inner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+h1 {
+ font-size: 50px;
+line-height: 1.2;
+    font-family: inherit;
+    font-weight: 300;
+}
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+  font-family: 'Zen Tokyo Zoo', cursive;
+}
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+.line {
+    height: 7px;
+    background-color: darkgray;
+    width: 70px;
+    margin: 8px auto;  
+}
+p {
+   max-width: width: 450px;
+    margin: 25px auto;
+    font-size: 20px;
+    line-height: 1.4;
+}
+.menu {
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+.links {
+   padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+    float:left;
+    color: darkorange;
+}
+.links:hover {
+    background-color: cornflowerblue;
+}
+a {
+    text-decoration: none;
+}
+.article : hover{
+    color : crimson;
+    
+}
